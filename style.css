@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
-@media (max-width: 768px) {
-  * {
+* {
     margin: 0;
     padding: 0;
     font-family: "Quicksand", sans-serif;
@@ -340,6 +339,7 @@
     margin-top: 10px;
     font-style: italic;
     font-size: 13px;
+    margin-bottom: 12px;
   }
 
   /* Fourth Page */
@@ -386,6 +386,10 @@
   .footer-container p {
     font-size: 12px;
   }
+
+
+@media (max-width: 768px) {
+  
 }
 
 @media (min-width: 769px) {
