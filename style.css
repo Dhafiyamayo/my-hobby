@@ -31,6 +31,8 @@
 
     position: fixed;
     z-index: 99999;
+
+    cursor: pointer;
   }
 
   .name-logo {
@@ -230,7 +232,7 @@
   }
 
   .galley-container {
-    margin-top: 5em;
+    margin-top: em;
     text-align: center;
   }
 
@@ -244,6 +246,10 @@
     padding: 0.5em 0.5em;
     font-weight: 500;
     background-color: rgb(253, 191, 97, 0.926);
+  }
+
+   .mySlides img {
+    width: 100%;
   }
 
   * {
@@ -330,6 +336,12 @@
     margin-bottom: 3em;
   }
 
+.scoreCheck img {
+    width: 87%;
+    outline: 2px solid black;
+    margin: 1em em;
+  }
+
   a {
     text-decoration: none;
     color: black;
@@ -359,15 +371,21 @@
     font-size: 1rem;
   }
 
+  .comingSoon img {
+    width: 87%;
+    outline: 2px solid black;
+    margin: 1em em;
+
+  }
+
   /* Fourth Page */
   #contact {
+
+    position: relative;
     min-height: 20em;
     background-color: #ffefc9;
     border-top: #000000 dotted 5px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .contact-container {
@@ -377,6 +395,7 @@
 
   .contact-container h1 {
     margin: 1em 1em;
+    margin-top: 5em;
   }
 
   .collaborate-button button {
@@ -397,7 +416,7 @@
   }
 
   .secBanner {
-    background-color: rgb(255, 255, 237);
+   
     
     position: absolute;
     z-index: 9;
@@ -405,12 +424,17 @@
     width: 100%;
     text-align: center;
 
-    margin-top: 4em;
+    margin-top: 3.5em;
+  }
 
+  .secBanner p {
+      background-color: rgb(255, 255, 237);
     border-top: solid black 2px;
     border-bottom: solid black 2px;
 
-    padding: 0.5em;
+    padding: 1em;
+
+    font-size: 1.1em;
   }
 
   /* fifth page */
@@ -441,6 +465,17 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* BIG SCREEN */
 
 
 @media screen and (min-width:769px) {
@@ -455,7 +490,7 @@
 
   #home {
     background-color: #ffefc9;
-    min-height: 45em;
+    min-height: 50em;
     overflow: hidden;
   }
 
@@ -469,21 +504,24 @@
     min-height: 1rem;
     padding: 1em 0em;
 
-    border-bottom: 2px solid black;
+    border-bottom: 5px solid black;
     background-color: rgb(255, 255, 237);
     color: black;
 
     position: fixed;
     z-index: 99999;
+
+    cursor: pointer;
+
   }
 
   .name-logo {
-    font-size: 1.4rem;
+    font-size: 2.5rem;
   }
   .navbar li {
     display: inline-block;
     margin-left: 1em;
-    font-size: 0.8rem;
+    font-size: 1.5rem;
   }
 
   .navbar li:hover {
@@ -496,10 +534,10 @@
   }
 
   .profile-picture img {
-    height: 25em;
+    height: 28em;
 
     position: absolute;
-    top: 18em;
+    top: 17em;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -513,15 +551,20 @@
   }
 
   .introduction h1 {
-    padding-bottom: 1em;
+    padding-bottom: 0.4em;
+    font-size: 3em;
   }
+
+   .introduction p {
+    font-size: 1.5em;
+   }
 
   .button {
     padding-bottom: 0em;
   }
 
   .button button {
-    margin-top: 4em;
+    margin-top: 2em;
 
     background-color: rgba(253, 191, 97, 0.926);
     border-style: none;
@@ -531,11 +574,11 @@
     
 
     cursor: pointer;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: 500;
     border-style: none;
 
-    outline: 2px solid #000000;
+    outline: 3px solid #000000;
   }
 
   .button button:hover {
@@ -551,13 +594,13 @@
   .social-media li {
     list-style-type: none;
     display: inline-block;
-    margin: 1em;
+    margin: 0.5em;
   }
 
   .social-media li a {
     color: black;
     transition: all 0.1s ease-in-out;
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
   .social-media li a:hover {
@@ -568,21 +611,24 @@
     position: absolute;
     z-index: 9;
 
-    width: 100%;
+    min-width: 100%;
+    left: %;
     
     text-align: center;
 
-    top: 43em;
+    top: 48em;
+
+    padding: rem;
   }
 
   .banner p {
     background-color: rgb(253, 191, 97, 0.926);
-    border-top: solid black 2px;
-    border-bottom: solid black 2px;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
 
     padding: 1em;
 
-    font-size: 1.1em;
+    font-size: 2em;
   }
 
   /* second page */
@@ -599,16 +645,23 @@
   .skills-explain {
     text-align: center;
     position: relative;
-    top: -em;
+    top: 5em;
   }
 
   .skills-explain h1 {
     padding-bottom: 0.5em;
+    font-size: 3em;
+  }
+
+  .skills-explain p {
+    padding-bottom: 0.5em;
+    font-size: 1.8em;
   }
 
   .column-title {
     font-family: "Quicksand", sans-serif;
     font-weight: 600;
+    font-size: 1.8em;
 
     display: flex;
     text-align: center;
@@ -616,8 +669,8 @@
 
     gap: 1em;
 
-    margin: 0.5em 1.9em;
-    margin-top: 2em;
+    margin: 0.5em 1.6em;
+    margin-top: 1em;
   }
 
   .column-title > div {
@@ -634,7 +687,8 @@
     text-align: center;
     justify-content: center;
 
-    font-size: 1rem;
+    font-size: 1.5em;
+    
     font-family: "Quicksand", sans-serif;
     font-weight: 500;
 
@@ -644,7 +698,7 @@
   .column-skills {
     flex: 1;
     padding: 0.5em;
-    border: 1px solid #000000;
+    border: 2px solid #000000;
 
     display: flex;
     align-items: center;
@@ -664,7 +718,7 @@
   /* Third Page */
 
   #gallery {
-    min-height: 140em;
+    min-height: 90em;
     margin-bottom: em;
     background-color: rgb(255, 255, 237);
 
@@ -673,22 +727,29 @@
     align-items: center;
   }
 
+  .mySlides img {
+    width: 30%;
+  }
+
   .galley-container {
-    margin-top: 5em;
+    margin-top: 10em;
     text-align: center;
   }
 
-  .galley-container > h1 {
-    padding-bottom: 1em;
+  .numbertext > img {
+    min-width: 1%;
   }
 
-  .galley-container > p {
-    margin-bottom: 1.5em;
-    display: inline-block;
-    padding: 0.5em 0.5em;
-    font-weight: 500;
-    background-color: rgb(253, 191, 97, 0.926);
+  .galley-container > h1 {
+    padding-bottom: 0.5em;
+    font-size: 3em;
   }
+
+   .galley-container > p {
+    padding-bottom: 0.5em;
+    font-size: 1.8em;
+  }
+
 
   * {
     box-sizing: border-box;
@@ -712,18 +773,19 @@
   /* Number text (1/3 etc) */
   .numbertext {
     color: black;
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     padding: 1em 3em;
     position: absolute;
     top: 0;
+    left: 22%;
   }
 
   .row {
     background-color: #ffefc9;
     padding: 1em 0.5em;
-    margin: 1.5em 0.5em;
+    margin: 1.5em 8em;
     border-style: solid;
-    border-radius: 1em;
+    border-radius: 2em;
   }
 
   .row:after {
@@ -753,16 +815,21 @@
   }
 
   .frontend-gallery > p {
-    margin-top: 7em;
+    margin-top: 5em;
     margin-bottom: 1.5em;
+    padding-bottom: 0.5em;
+
     display: inline-block;
     padding: 0.5em 0.5em;
     font-weight: 500;
     background-color: rgb(253, 191, 97, 0.926);
+
+    font-size: 1.8em;
+    
   }
 
   .scoreCheck img {
-    width: 87%;
+    width: 40%;
     outline: 2px solid black;
     margin: 1em em;
   }
@@ -770,7 +837,7 @@
   .scoreCheck p {
     margin-top: 1.5em;
     font-style: italic;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 3em;
   }
 
@@ -780,7 +847,7 @@
   }
 
   .comingSoon img {
-    width: 87%;
+    width: 40%;
     outline: 2px solid black;
     margin: 1em em;
 
@@ -800,27 +867,30 @@
   .comingSoon p {
     margin-top: 1em;
     font-style: italic;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   /* Fourth Page */
   #contact {
-    min-height: 20em;
+    min-height: 30em;
     background-color: #ffefc9;
     border-top: #000000 dotted 5px;
 
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -1em;
   }
 
   .contact-container {
+    top: 1em;
     text-align: center;
-    top: 10em;
   }
 
   .contact-container h1 {
     margin: 1em 1em;
+    top: -10%;
+    font-size: 3em;
   }
 
   .collaborate-button button {
@@ -833,7 +903,7 @@
     padding: 0.5em;
 
     cursor: pointer;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: 500;
     border-style: none;
 
@@ -845,22 +915,24 @@
     
     position: absolute;
     z-index: 9;
+    right: 0.1%;
 
     width: 100%;
     text-align: center;
 
-    margin-top: 4em;
+    margin-top: 3em;
+    padding: 1em;
 
-    border-top: solid black 2px;
-    border-bottom: solid black 2px;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
 
-    padding: 0.5em;
+    font-size: 2em;
   }
 
   /* fifth page */
 
   footer {
-    min-height: 10em;
+    min-height: 20em;
     background-color: rgb(253, 191, 97, 0.926);
   }
 
@@ -873,7 +945,7 @@
 
   .footer-container > .name-logo {
     font-size: 1.5rem;
-    margin-top: 3em;
+    margin-top: 8em;
   }
 
   .footer-container p {
@@ -881,3 +953,7 @@
     font-size: 1rem;
   }
 }
+
+
+
+
