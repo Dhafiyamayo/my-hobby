@@ -424,7 +424,7 @@
     width: 100%;
     text-align: center;
 
-    margin-top: 3.5em;
+    margin-top: 5em;
   }
 
   .secBanner p {
@@ -521,7 +521,7 @@
   .navbar li {
     display: inline-block;
     margin-left: 1em;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .navbar li:hover {
@@ -920,7 +920,7 @@
     width: 100%;
     text-align: center;
 
-    margin-top: 3em;
+    margin-top: 18em;
     padding: 1em;
 
     border-top: solid black 3px;
@@ -953,7 +953,5 @@
     font-size: 1rem;
   }
 }
-
-
 
 
