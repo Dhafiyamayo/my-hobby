@@ -71,6 +71,7 @@
   }
 
   .introduction h1 {
+    padding-top: 2em;
     padding-bottom: 1em;
   }
 
@@ -551,6 +552,7 @@
   }
 
   .introduction h1 {
+    padding-top: 0.2em;
     padding-bottom: 0.4em;
     font-size: 3em;
   }
@@ -564,7 +566,7 @@
   }
 
   .button button {
-    margin-top: 2em;
+    margin-top: 1.3em;
 
     background-color: rgba(253, 191, 97, 0.926);
     border-style: none;
