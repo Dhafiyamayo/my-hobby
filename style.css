@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media screen and (max-width: 768px) {
   * {
     margin: 0;
@@ -409,6 +413,12 @@
     border-style: none;
 
     outline: 2px solid #000000;
+    
+  }
+
+  .collaborate-button a {
+    list-style-type: none;
+    text-decoration: none;
   }
 
   .collaborate-button button:hover {
@@ -457,6 +467,11 @@
   .footer-container p {
     margin-top: 0.2;
     font-size: 1rem;
+  }
+
+  .backToTop {
+    text-decoration: solid;
+    color: white;
   }
 }
 
@@ -811,7 +826,7 @@
   .scoreCheck img {
     width: 40%;
     outline: 2px solid black;
-    margin: 1em em;
+    margin: 1em;
   }
 
   .scoreCheck p {
@@ -821,10 +836,10 @@
     margin-bottom: 3em;
   }
 
-  a {
+  /* a {
     text-decoration: none;
     color: black;
-  }
+  } */
 
   .comingSoon img {
     width: 40%;
