@@ -182,7 +182,7 @@ html {
 
   .column-title > div {
     background-color: rgb(253, 191, 97, 0.926);
-    margin: 0.4em 0.4em;
+    margin: 0.1em 0.3em;
   }
 
   .column-text > div {
@@ -198,7 +198,6 @@ html {
     font-size: 1rem;
     font-family: "Quicksand", sans-serif;
     font-weight: 500;
-   
   }
 
   .column-skills {
@@ -209,8 +208,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0.4em em;
-
+    margin: 0.1em 0.3em;
   }
 
   .column-skills ul li {
@@ -413,7 +411,6 @@ html {
     border-style: none;
 
     outline: 2px solid #000000;
-    
   }
 
   .collaborate-button a {
