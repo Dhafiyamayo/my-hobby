@@ -177,13 +177,12 @@ html {
     justify-content: center;
 
     gap: 1em;
-
-    margin: 0.5em 1.9em;
     margin-top: 2em;
   }
 
   .column-title > div {
     background-color: rgb(253, 191, 97, 0.926);
+    margin: 0.4em 0.4em;
   }
 
   .column-text > div {
@@ -199,8 +198,7 @@ html {
     font-size: 1rem;
     font-family: "Quicksand", sans-serif;
     font-weight: 500;
-
-    margin: 0.5em 1.9em;
+   
   }
 
   .column-skills {
@@ -211,6 +209,8 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0.4em em;
+
   }
 
   .column-skills ul li {
@@ -448,7 +448,7 @@ html {
   /* fifth page */
 
   footer {
-    min-height: 10em;
+    min-height: 11em;
     background-color: rgb(253, 191, 97, 0.926);
   }
 
